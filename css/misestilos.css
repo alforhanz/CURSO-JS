@@ -1,3 +1,9 @@
-body{
-    background-color: rgb(155, 221, 215);
-}::placeholder { color: blue; }
+html{
+    height: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: linear-gradient(#f7f7f7, #184321);
+}
