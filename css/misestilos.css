@@ -7,3 +7,25 @@ body {
     font-family: sans-serif;
     background: linear-gradient(#f7f7f7, #184321);
 }
+
+.main-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 337px;
+    height: 337px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+}
+h2 {
+    text-align: center;
+    position: relative;
+    font-size: 60px;
+    text-transform: uppercase;
+    color: #26a69a;
+   /* //padding-top: 200px; */
+}
