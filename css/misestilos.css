@@ -8,6 +8,7 @@ body {
     background: linear-gradient(#f7f7f7, #184321);
 }
 
+<<<<<<< HEAD
 .main-box {
     position: absolute;
     top: 50%;
@@ -28,4 +29,21 @@ h2 {
     text-transform: uppercase;
     color: #26a69a;
    /* //padding-top: 200px; */
+=======
+.principal-box{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    width: 400px;    
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    box-sizing:border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    text-transform: uppercase;
+} 
+h2{    
+    font-size:25px    
+>>>>>>> 5736747796f0ae40127c3f52b5d26191a526227b
 }
