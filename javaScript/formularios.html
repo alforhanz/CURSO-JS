@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <!-- Material Symbols -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <!-- CSS -->
+    <link rel="stylesheet" href="formStyle.css">
+
+    <title>Mi página de prueba HTML INTERMEDIO</title>
+  </head>
+  <body>
+    <div class="container" >
+    <h3>FORMULARIOS HTML</h3>
+
+    <h5>Search input</h5>
+<div class="custom_input"> 
+    <div class="buscar">
+    <span class="material-symbols-outlined">search</span>
+    <input class="input" type="text" placeholder="Search">   
+</div>      
+    <button class="button-3" type="submit">Buscar</button>
+</div>
+<div>
+    <h5>Form text</h5>
+   <form action="" method="GET">  
+    <div class="row">
+      <div class="input-field col s6">
+        <input id="curso" type="text" placeholder="Ingrese un curso" name="curso">
+        <label for="curso">Curso: </label>
+        <button class="button-3" type="submit">Enviar</button>
+      </div>    
+    </div> 
+   </form>
+</div>
+<hr>
+<div>
+    <h5>Form Email</h5>
+    <form action="recibir.html" method="GET">
+        <input id="mail" type="email" placeholder="username@correo.com"  required>
+        <label for="mail">Curso: </label>
+        <input id="clave" type="password" placeholder="Ingrese la contraseña" >
+        <!-- <label for="clave">Contraseña</label> -->
+        <textarea id="mensaje" name="mensaje" rows="4" placeholder="Ingrese aquí su mensaje"></textarea>
+        <label for="mensaje">Contraseña</label>
+        <button class="button-3" type="submit">Enviar</button>
+    </form>
+</div>
+<hr>
+<div>
+<h5>Inputs</h5>
+<div class="row">
+  <div class="input-field col s4">
+    <input type="text" class="validate" placeholder="Ingresar texto">
+    <input type="button" value="Enviar">   
+  </div> 
+  <div class="input-field col s4 ">
+    <input type="date" class="validate">   
+  </div>
+  <div class="input-field col s4 ">    
+    <input type="datetime-local" class="validate">
+  </div> 
+</div>
+<div class="row">
+  <div class="input-field col s6">
+    <input type="file">
+  </div>
+  <div class="input-field col s6">    
+    <input type="month" class="validate">
+  </div>
+</div>
+<div class="row">
+  <div class="input-field col s6">
+    <input type="range" class="validate">
+  </div>
+  <div class="input-field col s6">    
+    <input type="time" class="validate">
+  </div>
+  <div class="input-field col s6">
+    <input type="week" class="validate">
+  </div>
+  
+</div>
+    <a href="index.html">Index /</a>
+    <a href="intermedio.html"> HTML intermedio </a>   
+</div>
+<div>
+  <a href="fundamentosCSS.html"> Siguiente </a>
+</div>
+
+</div>
+<script src="script.js"></script>
+  </body>
+</html>

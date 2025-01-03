@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+
+    <title>Mi página de prueba HTML INTERMEDIO</title>
+  </head>
+  <body>
+    <div>
+        <H2>HTML Intermedio</H2>
+        <p>Conozcamos cosas más avanzadas de HTML</p>
+        
+        <hr>
+        <h3>Tablas</h3>
+        <ul>
+            <li>&lt;table&gt;&lt;/table&gt; Comienzo y final de una tabla.</li>
+            <li>&lt;tr&gt;&lt;/tr&gt; Comienzo y final de una fila.</li>
+            <li>&lt;td&gt;&lt;/td&gt; Contenido de una celda.</li>
+        </ul>
+        <hr>
+        <table border='1'>
+            <tr>
+                <td>Gato</td>
+                <td>3 años</td>
+                <td>Negro</td>
+            </tr>
+            <tr>
+                <td>Perro</td>
+                <td>1 mes</td>
+                <td>Azul</td>
+            </tr>
+        </table>
+        <hr>
+        <table border='1'>
+            <tr>
+                <th>Mascota</th>
+                <th>Edad</th>
+                <th>Color</th>
+            </tr>
+            <tr>
+                <td>Gato</td>
+                <td>3 años</td>
+                <td>Negro</td>
+            </tr>
+            <tr>
+                <td>Perro</td>
+                <td>1 mes</td>
+                <td>Azul</td>
+            </tr>
+        </table>
+    
+        <hr>
+        <h4>PIE DE COLUMNA Y COMBINAR </h4>
+        <table border='1'>
+            <caption>Titulo de la tabla</caption>
+            <!-- Encabezado -->
+            <thead>
+                <tr>
+                    <th>Mascota</th>
+                    <th>Edad</th>
+                    <th>Color</th>
+                </tr>
+            </thead>
+            <!-- Pie de tabla -->
+            <tfoot>
+                <tr>
+                    <th>Mascota</th>
+                    <th>Edad</th>
+                    <th>Color</th>
+                </tr>
+            </tfoot>
+            <!-- contenido -->
+            <tbody>
+                <tr>
+                    <td>Gato</td>
+                    <td>3 años</td>
+                    <td>Negro</td>
+                </tr>
+                <tr>
+                    <td>Perro</td>
+                    <td>1 mes</td>
+                    <td>Azul</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <hr>
+        <h4>COMBINAR COLUMNAS</h4>
+        <table border='1'>
+            <thead>
+                <tr>
+                    <th>Mascota</th>
+                    <th>Edad</th>
+                    <th>Color</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gato</td>
+                    <td>3 años</td>
+                    <td>Negro</td>
+                </tr>
+                <tr>
+                    <td>Perro</td>
+                    <td>1 mes</td>
+                    <td>Azul</td>
+                </tr>
+                <tr>
+                    <td colspan="2">Total</td>
+                    <td>35</td>
+                </tr>
+            </tbody>
+        </table>
+    
+        <hr>
+        <h4>COMBINAR FILAS</h4>
+        <table border='1'>
+            <thead>
+                <tr>
+                    <th>Mascota</th>
+                    <th>Edad</th>
+                    <th>Color</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Gato</td>
+                    <td>3 años</td>
+                    <td rowspan="3">Azul</td>
+                    <!-- <td>Negro</td> -->
+                </tr>
+                <tr>
+                    <td>Perro</td>
+                    <td>1 mes</td>
+                    <!-- <td>Blanco</td> -->
+                </tr>
+                <tr>
+                    <td>Rana</td>
+                    <td>2 semanas</td>
+                    <!-- <td>Amarillo</td> -->
+                </tr>
+            </tbody>
+        </table>
+    
+        <hr>
+        <h4>PIE DE COLUMNA Y COMBINAR </h4>
+        <table border='1'>
+            <caption>Titulo de la tabla</caption>
+            <!-- Encabezado -->
+            <thead>
+                <tr>
+                    <th>Mascota</th>
+                    <th>Edad</th>
+                    <th>Cantidad</th>
+                </tr>
+            </thead>
+            <!-- Pie de tabla -->
+            <tfoot>
+                <tr>
+                    <th colspan="2">Total</th>
+                    <th>16</th>
+                    <!-- <th>Edad</th>
+                <th>Color</th> -->
+                </tr>
+            </tfoot>
+            <!-- contenido -->
+            <tbody>
+                <tr>
+                    <td>Gato</td>
+                    <td>3 años</td>
+                    <td>8</td>
+                </tr>
+                <tr>
+                    <td>Perro</td>
+                    <td>1 mes</td>
+                    <td>4</td>
+                </tr>
+                <tr>
+                    <td>Ardilla</td>
+                    <td>1 mes</td>
+                    <td>8</td>
+                </tr>
+            </tbody>
+        </table>
+    <hr>
+    <a href="index.html">Index /</a>
+    <a href="formularios.html"> / Formularios HTML </a>
+    </div>
+  </body>
+</html>
