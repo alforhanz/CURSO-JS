@@ -1,7 +1,7 @@
 function imprimir() {
     Swal.fire({
         title: "Sweet!",
-        text: "Here's a custom image.",
+        text: "Imprimiendo.",
         imageUrl: "img/card3.jpg",
         imageAlt: "Custom image"
     });
